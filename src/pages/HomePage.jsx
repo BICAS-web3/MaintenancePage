@@ -13,10 +13,12 @@ const HomePage = () => {
 						<div className={styles.image_first}>
 							<img
 								src={centerImage}
+								alt=''
 							/>
 							<div className={styles.image_last}>
 								<img
 									src={circle}
+									alt=''
 								/>
 							</div>
 						</div>
@@ -30,7 +32,7 @@ const HomePage = () => {
 				</div>
 			</div>
 			<a
-				href="#"
+				href="/"
 				className={styles.logo}
 			>
 				<img
