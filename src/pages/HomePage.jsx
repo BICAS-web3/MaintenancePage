@@ -6,7 +6,7 @@ import logo from "../img/logo.svg";
 
 const HomePage = () => {
   return (
-    <>
+    <main className={styles.wrapper}>
       <div className={styles.main}>
         <div className={styles.main_image}>
           <div className={styles.image}>
@@ -28,7 +28,7 @@ const HomePage = () => {
       <a href="/" className={styles.logo}>
         <img src={logo} alt="logo" />
       </a>
-    </>
+    </main>
   );
 };
 
